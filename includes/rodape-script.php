@@ -52,7 +52,7 @@ var ml_account = ml('accounts', '992844', 'x4e5s7q9e0', 'load');
 
 <!--MESSENGER -->
 
-<script>
+<!--<script>
       window.fbMessengerPlugins = window.fbMessengerPlugins || {
         init: function () {
           FB.init({
@@ -83,7 +83,7 @@ var ml_account = ml('accounts', '992844', 'x4e5s7q9e0', 'load');
         class="fb-customerchat"
         page_id="1080405815413142"
         ref="">
-      </div>
+      </div>-->
     
 
   

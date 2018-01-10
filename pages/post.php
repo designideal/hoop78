@@ -92,6 +92,21 @@ endif;
 
            <div class="row">
                 <div class="small-12 medium-8 medium-centered columns">
+					
+					<div style="margin-bottom: 50px;">                       
+						   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<!-- Pós-Materia -->
+						<ins class="adsbygoogle"
+							 style="display:block"
+							 data-ad-client="ca-pub-9403421182725373"
+							 data-ad-slot="4161066512"
+							 data-ad-format="auto"></ins>
+						<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
+					</div>
+						
+						
                     <article>
                         <div class="intro">
                             <div class="tag"><?php echo $categoria_pg?></div>
@@ -143,20 +158,32 @@ endif;
                         </div>
                         
                         
-                        <div id="facebook">
+<!--                        <div id="facebook">
 							<div class="row">
 								<div class="small-12 columns text-center">
 									<p>Curta a Hoop78 no Facebook</p>
 									<div class="fb-like" data-href="https://www.facebook.com/hoop78/" data-layout="button" data-action="like" data-size="large" data-show-faces="false" data-share="true"></div>
                     		 	</div>	
                      		 </div>
-                       </div>
-                       
-   
+                       </div>-->
+						
+						
+											
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+					<ins class="adsbygoogle"
+						 style="display:block; text-align:center;"
+						 data-ad-layout="in-article"
+						 data-ad-format="fluid"
+						 data-ad-client="ca-pub-9403421182725373"
+						 data-ad-slot="3387751338"></ins>
+					<script>
+						 (adsbygoogle = window.adsbygoogle || []).push({});
+					</script>
+
 
                               
                         
-                        <div class="comentarios">
+                        <div class="comentarios" style="margin-top: 50px;">
                         	<div class="row">
                             	<div class="small-12 columns">
                                 	<div id="disqus_thread"></div>
