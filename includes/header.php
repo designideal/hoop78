@@ -17,7 +17,7 @@
     <meta property="og:locale" content="pt_BR">
     <link rel="stylesheet" href="<?php echo ROOT?>css/foundation-min.css" />
     <link rel="stylesheet" href="<?php echo ROOT?>css/main-min.css" />
-    <link href="https://fonts.googleapis.com/css?family=Armata|Glegoo:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Anton|Armata|Merriweather" rel="stylesheet">
     <script src="<?php echo ROOT?>js/vendor/modernizr.js"></script>
 	
 	<script>
@@ -65,5 +65,15 @@
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
   js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.8&appId=142635469155863";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.11&appId=142635469155863';
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>

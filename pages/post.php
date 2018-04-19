@@ -93,19 +93,7 @@ endif;
            <div class="row">
                 <div class="small-12 medium-8 medium-centered columns">
 					
-					<div style="margin-bottom: 50px;">                       
-						   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-						<!-- Pós-Materia -->
-						<ins class="adsbygoogle"
-							 style="display:block"
-							 data-ad-client="ca-pub-9403421182725373"
-							 data-ad-slot="4161066512"
-							 data-ad-format="auto"></ins>
-						<script>
-						(adsbygoogle = window.adsbygoogle || []).push({});
-						</script>
-					</div>
-						
+				
 						
                     <article>
                         <div class="intro">
@@ -131,7 +119,11 @@ endif;
                         <div class="texto">
                         	<?php echo $txt_pg?>
                         </div>
-                        <div class="midias">
+						
+						<h2>Dá um play e confira o que rola no nosso som!</h2>
+						<iframe src="https://open.spotify.com/embed/user/hoop78/playlist/3TdjQeYBHmU1JLLzy7uM4s" width="100%" height="280" frameborder="0" allowtransparency="true" style="margin-bottom: 20px;"></iframe>
+						
+                        <div class="midias" style="margin-bottom: 30px;">
                         	<div class="row collapse">
                             	<div class="small-12 medium-8 columns">
                                 	<ul>
@@ -246,7 +238,7 @@ endif;
 								?>
 								</span>
                                 <h2><?php echo $p->titulo?></h2>
-                                <h3><?php echo $p->lead?></h3>
+                                <p><?php echo $p->lead?></p>
                     		</a>
                         </div>
                     </div>

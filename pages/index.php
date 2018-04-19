@@ -79,7 +79,7 @@ $blocoDMR = $postNeg->listar("p.status='Publicado' AND p.destaque='bloco-DMR'","
 								?>
 								</span>
                                 <h2><?php echo $bloco3[$b]->titulo?></h2>
-                                <h3><?php echo $bloco3[$b]->lead?></h3>
+                                <p><?php echo $bloco3[$b]->lead?></p>
                     		</a>
                         </div>
                     </div>   
@@ -116,7 +116,7 @@ $blocoDMR = $postNeg->listar("p.status='Publicado' AND p.destaque='bloco-DMR'","
 								?>
 								</span>
                                 <h2><?php echo $bl2->titulo?></h2>
-                                <h3><?php echo $bl2->lead?></h3>
+                                <p><?php echo $bl2->lead?></p>
 							</a>
                     	</div>
                     </div>
@@ -221,7 +221,7 @@ $blocoDMR = $postNeg->listar("p.status='Publicado' AND p.destaque='bloco-DMR'","
 									?>
 									</span>
 									<h2><?php echo $bloco3[$b]->titulo?></h2>
-									<h3><?php echo $bloco3[$b]->lead?></h3>
+									<p><?php echo $bloco3[$b]->lead?></p>
 								</a>
 							</div>
 						</div>   
